@@ -41,6 +41,30 @@ public class Main {
         String className = income1 > 100_000 ? "First" : "Economy";
         System.out.println("className is : " + className);
 
+        //switch statement
+        String role = "admin";
+        if (role=="admin")
+            System.out.println("you are admin");
+        else if (role=="moderator")
+            System.out.println("you are moderator");
+        else
+            System.out.println("you are a guest");
+
+        switch (role) {
+            case "admin":
+                System.out.println("you are admin");
+                break;
+            case "moderator":
+                System.out.println("you are moderator");
+                break;
+            default:
+                System.out.println("you are a guest");
+                break;
+        }
+
+        // for loop
+        for (int i=0;i<5; i++)
+            System.out.println("for loop" + i);
 
     }
 }
