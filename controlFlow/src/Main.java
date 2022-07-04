@@ -1,3 +1,6 @@
+import java.util.Locale;
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -65,6 +68,19 @@ public class Main {
         // for loop
         for (int i=0;i<5; i++)
             System.out.println("for loop" + i);
+
+        //while loop
+        Scanner scanner = new Scanner(System.in);
+        String input = "";
+
+        while (!input.equals("quit")) {
+
+            System.out.print("Input: ");
+            input = scanner.next().toLowerCase();
+            System.out.println(input);
+        }
+
+
 
     }
 }
