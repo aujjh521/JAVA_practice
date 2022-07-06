@@ -83,6 +83,18 @@ public class Main {
             System.out.println(input);
         }
 
+        //for each loop vs for loop
+        //for loop
+        String[] fruits = {"apple", "banana", "mango"};
+
+        for (int i=0 ; i<fruits.length ; i++){
+            System.out.println(fruits[i]);
+        }
+
+        //for each loop
+        for (String fruit : fruits){
+            System.out.println(fruit);
+        }
 
 
     }
