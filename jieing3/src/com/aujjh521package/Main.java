@@ -37,6 +37,7 @@ public class Main {
             match_record[i-1] = matched_num;
         }
         System.out.println("matched record is " + Arrays.toString(match_record));
+        System.out.println("max matched count is " + Arrays.stream(match_record).max());
     }
 }
 
